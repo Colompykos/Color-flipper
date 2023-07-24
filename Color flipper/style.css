@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b9bbbe;
+}
+
+/*   --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif; */
+.nav {
+  height: 70px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  border-radius: 6px;
+  box-shadow: 5px 15px 30px -6px #e0d5cc;
+}
+.links {
+  /* border: 1px solid black; */
+  width: 320px;
+  height: 35px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-1 {
+  background-color: #b9bbbe;
+  border-radius: 6px;
+}
+.link-2 {
+  background-color: #b9bbbe;
+  border-radius: 6px;
+}
+
+.link-1:hover {
+  background-color: #e0d5cc;
+}
+.link-2:hover {
+  background-color: #e0d5cc;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  max-width: 750px;
+  min-height: 70px;
+  margin: auto;
+  margin-top: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 38px;
+  background-color: #000000;
+  letter-spacing: 2px;
+}
+
+.back-color {
+  font-weight: bold;
+  color: white;
+}
+.color-name {
+  color: #4e8ef0;
+  text-transform: uppercase;
+}
+
+#click-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.click {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  width: 110px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.click:hover {
+  background-color: rgba(255, 255, 255, 0.767);
+}
